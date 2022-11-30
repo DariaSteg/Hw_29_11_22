@@ -6,7 +6,6 @@ function MyArrayPrototype() {
       }
       return this.length;
     };
-  
     this.pop = function () {
       if (this.length === 0) {
         return;
